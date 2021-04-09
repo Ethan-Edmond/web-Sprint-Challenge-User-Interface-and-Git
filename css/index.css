@@ -130,6 +130,8 @@ nav a {
 }
 
 .about-text-container {
+    display: flex;
+    flex-wrap: wrap;
     margin: 30px 0;
     border-bottom: 1px dashed black;
     width: 45%;
