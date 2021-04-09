@@ -34,13 +34,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic things have inherent meaning. Semantic html is html that's supposed to
+be used for something particular. Would you use a p tag for your header? No,
+cause p tags are for paragraphs.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Inline displays like text, it doesn't break to a new line and you can't give it
+a width or height. Block displays like... well blocks, so you can give it a
+width and height, it also breaks to a new line.
 
 3. What are the 4 areas of the box model?
 
+Going inward:
+  margin
+  border
+  padding
+  content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+This works on the main axis which, unless you change the flex direction, is up
+and down.
+
 5. Explain why git is valuable to a team of developers.
+
+You can use it to all work on the same thing at the same time without losing any version or change applied to any version.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -100,5 +119,6 @@ Note: Please make sure you are using flexbox to layout your website. Floats, inl
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
 * [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
+I can't really think of any comments to put.
 * [x] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
 * [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
