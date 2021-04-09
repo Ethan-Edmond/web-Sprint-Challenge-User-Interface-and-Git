@@ -135,16 +135,14 @@ nav a {
     width: 45%;
 }
 
-.about-text-container:first-child {
+.about-text-container:first-child, .about-text-container:last-child {
     width: 100%;
     padding: 0 3% 3% 3%;
     margin: 0;
 }
 
 .about-text-container:last-child {
-    width: 93%;
     border: none;
-    margin-top: 3%;
 }
 
 .about-text-container img {
