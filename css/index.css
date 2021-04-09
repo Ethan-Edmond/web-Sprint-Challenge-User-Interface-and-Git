@@ -47,9 +47,14 @@ table {
 	border-spacing: 0;
 }
 
+/* Brit's Fix */
+
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
+
+/* General Styles */
 
 html, body {
     height: 100%;
@@ -71,6 +76,36 @@ p {
     margin: 0 auto;
 }
 
+/* Header Styles */
+
+.nav-bar {
+    padding: 2% 0 4%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo-container {
+    width: 20%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    line-height: 1.1;
+}
+
+.header-image {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+/* Top Styles */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +119,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Middle Styles */
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +149,8 @@ p {
     justify-content: center;
 }
 
+/* Bottom Styles */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +164,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer Styles */
 
 footer {
     width: 100%;
