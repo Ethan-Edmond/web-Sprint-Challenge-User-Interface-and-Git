@@ -132,7 +132,6 @@ nav a {
 .about-text-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
     margin: 30px 0;
     border-bottom: 1px dashed black;
     width: 45%;
@@ -142,6 +141,33 @@ nav a {
     width: 100%;
     padding: 0 3% 3% 3%;
     margin: 0;
+}
+
+.about-text-container:last-child {
+    width: 93%;
+    border: none;
+    margin-top: 3%;
+}
+
+.about-text-container img {
+    margin-bottom: 4%;
+}
+
+.about-text-container a {
+    display: block;
+    margin: 5% 0 6%;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    /* It kinda looks like this in the picture, but I don't think there is a shadow */
+    /* box-shadow: 0px 0px 2px black; */
+}
+
+.about-text-container a:hover {
+    color: white;
+    background-color: black;
 }
 
 /* Middle Styles */
